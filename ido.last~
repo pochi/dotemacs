@@ -1,0 +1,54 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/kuroda/.emacs.d/elpa/" . "company-20160829.1206/")
+ ("/Users/kuroda/.emacs.d/" . "elpa/")
+ ("/opt/repos/" . "deeplearning/")
+ ("/opt/" . "repos/")
+ ("/" . "opt/")
+ ("/Users/kuroda/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/kuroda/.emacs.d/elpa/company-20160829.1206/"
+ "/Users/kuroda/.emacs.d/lisp/"
+ "/Users/kuroda/.emacs.d/"
+ "/opt/repos/deeplearning/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "company-abbrev.el"
+ "init-company-mode.el"
+ "init-helm.el"
+ "init-asciidoc.el"
+ "init.el"
+ "init-python.el"
+ "1_4_1.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/kuroda/.emacs.d/elpa/company-20160829.1206/" (22562 62317 0 0) "company.elc" "company.el" "company-yasnippet.elc" "company-yasnippet.el" "company-xcode.elc" "company-xcode.el" "company-tempo.elc" "company-tempo.el" "company-template.elc" "company-template.el" "company-semantic.elc" "company-semantic.el" "company-pkg.el" "company-oddmuse.elc" "company-oddmuse.el" "company-nxml.elc" "company-nxml.el" "company-keywords.elc" "company-keywords.el" "company-ispell.elc" "company-ispell.el" "company-gtags.elc" "company-gtags.el" "company-files.elc" "company-files.el" "company-etags.elc" "company-etags.el" "company-elisp.elc" "company-elisp.el" "company-eclim.elc" "company-eclim.el" "company-dabbrev.elc" "company-dabbrev.el" "company-dabbrev-code.elc" "company-dabbrev-code.el" "company-css.elc" "company-css.el" "company-cmake.elc" "company-cmake.el" "company-clang.elc" "company-clang.el" "company-capf.elc" "company-capf.el" "company-bbdb.elc" "company-bbdb.el" "company-autoloads.el" "company-abbrev.elc" "company-abbrev.el" "../" "./")
+
+ ("/Users/kuroda/.emacs.d/elpa/" (22562 61703 0 0) "yasnippet-20161026.1601/" "web-mode-20161106.132/" "tuareg-20160710.1045/" "spinner-1.7.1/" "smex-20151212.1409/" "seq-2.19/" "scala-mode-20160902.525/" "sbt-mode-20161026.350/" "s-20160928.636/" "rust-mode-20161031.2109/" "rtags-20161028.1136/" "rainbow-delimiters-20160430.2358/" "racer-20161105.1637/" "queue-0.1.1/" "pythonic-20160221.1123/" "pyenv-mode-20160221.1123/" "projectile-20161108.729/" "popup-20160709.729/" "pkg-info-20150517.443/" "peg-20150707.2341/" "paredit-20160615.1325/" "multiple-cursors-20161021.1431/" "merlin-20161017.205/" "markup-faces-20141110.17/" "markdown-mode-20160928.932/" "levenshtein-20051013.1056/" "inflections-20161017.157/" "ido-ubiquitous-20160623.815/" "ido-completing-read+-20160623.815/" "hydra-20160913.216/" "helm-core-20161108.1302/" "helm-20161108.1310/" "haskell-mode-20161107.653/" "golden-ratio-20150819.420/" "glsl-mode-20160209.833/" "flycheck-rust-20161019.1103/" "flycheck-20161106.149/" "f-20161002.800/" "exec-path-from-shell-20160812.159/" "epl-20150517.433/" "ensime-20161031.246/" "edn-20160215.419/" "dash-20161108.352/" "company-anaconda-20160809.705/" "company-20160829.1206/" "cmake-mode-20160928.505/" "cmake-ide-20161023.1225/" "cmake-font-lock-20150828.1327/" "clojure-mode-extra-font-locking-20160307.414/" "clojure-mode-20161105.2359/" "clj-refactor-20161005.344/" "cider-20161016.424/" "caml-20151009.845/" "atom-one-dark-theme-20161101.1955/" "async-20161103.1036/" "archives/" "anaconda-mode-20161028.29/" "ag-20161027.1758/" "adoc-mode-20160314.1430/" "../" "./")
+
+ ("/Users/kuroda/.emacs.d/" (22562 62235 0 0) "projectile-bookmarks.eld" "lisp/" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "anaconda-mode/" "abbrev_defs" ".smex-items" ".recentf" "../" "./")
+
+ ("/Users/kuroda/.emacs.d/lisp/" (22562 62290 0 0) "init-web-mode.el" "init-ui.el" "init-scala.el" "init-rust.el" "init-python.el" "init-ocaml.el" "init-navigation.el" "init-miscellaneous.el" "init-markdown.el" "init-lisp.el" "init-helm.el" "init-haskell.el" "init-glsl.el" "init-exec-path.el" "init-elpa.el" "init-editing.el" "init-cpp.el" "init-company-mode.el" "init-cmake.el" "init-clojure.el" "init-asciidoc.el" "../" "./")
+
+ ("/opt/repos/deeplearning/" (22562 62269 0 0) "tensorsample.py" "sigmond.py" "hoge.png" "deeplearning.Rproj" "data/" "1_4_1_tensor.py" "1_4_1.R" "1_4_1.py" ".Rproj.user/" ".Rhistory" ".RData" ".gitignore" ".git/" "../" "./")
+
+ ("/opt/repos/" (22560 10677 0 0) "studio/" "spark2-examples/" "spark-streaming-kafka-sample/" "spark-1.5.1.tgz" "spark/" "singapore/" "sigapore_picture/" "seek_gakkun/" "sample_codes/" "robot/" "repos/" "reactive-nao-controller/" "rd/" "rails/" "postgre_data/" "phoenix/" "nao-robot_api_test/" "NAO/" "myportal.keystore" "mobile/" "incubator-zeppelin/" "hello_phoenix2/" "hello_phoenix/" "Goの悩み.md" "go-ethereum/" "go/" "face_detection/" "fabric/" "elixirtools/" "echo_client/" "deeplearning/" "csr.pem" "c/" "box/" "boostnote.json" "Boostnote/" "blueminx/" "asakusafw/" "apache2/" "anaconda2/" "aes128/" "251ecf04e104/" ".DS_Store" ".biward.md.swp" "../" "./")
+
+ ("/opt/" (22011 64360 0 0) "repos/" "homebrew-cask/" "../" "./")
+
+ ("/Users/" (21956 64 0 0) "Shared/" "oracle/" "kuroda/" "itpadmin/" "DLAdmin/" ".localized" "../" "./")
+
+ ("/Users/kuroda/" (22562 59628 0 0) "VirtualBox VMs/" "utils/" "server.crt" "seaborn-data/" "Public/" "Pictures/" "naofw-06e8dd-0.0.0.pkg" "NaoFramework5/" "NaoFramework3/" "NaoFramework (2)/" "NaoFramework/" "Nao/" "Music/" "Movies/" "Library/" "homebrew/" "hogemoge/" "gitflow/" "git/" "face3/" "face2/" "dump.rdb" "Downloads/" "Documents/" "DI_face_detection/" "Desktop/" "Applications/" ".zshrc" ".zcompdump" ".wireshark-etc/" ".wireshark/" ".vscode/" ".viminfo" ".Trash/" ".tmux.conf.bak" ".tmux.conf" ".subversion/" ".ssh/" ".spark_history" ".scraping" ".scala_history" ".sbt/" ".rstudio-desktop/" ".rnd" ".Rhistory" ".pylint.d/" ".pry_history" ".p2/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".mix/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".jupyter/" ".jazz-scm/" ".ivy2/" ".ipython/" ".histfile" ".hex/" ".heroku/" ".gradle/" ".gore/" ".gitignore" ".gitconfig" ".Genymobile/" ".gem/" ".emacs.d/" ".elixir_utils/" ".eclipse/" ".DS_Store" ".continuum/" ".config/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".bash_profile" ".bash_history" ".aws/" ".atom/" ".appgyver/" ".AndroidStudio1.2/" ".android/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

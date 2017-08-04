@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ check-parens
+ indent-region
+ replace-string
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 3)
+ (replace-string . 1)
+ (indent-region . 1)
+ (check-parens . 2)
+)
