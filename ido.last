@@ -97,9 +97,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/opt/repos/todo/"
  "/Users/pochi/.emacs.d/lisp/"
  "/Users/pochi/.emacs.d/"
- "/opt/repos/todo/"
  "/opt/repos/mirror/fuga/"
  "/opt/repos/note/machine_learning_book/part5/"
  "/Users/pochi/Desktop/"
@@ -151,7 +151,9 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "readme.org"
  "init-ui.el"
+ "init-org.el"
  "init.el"
  "init-doom.el"
  "init-exec-path.el"
@@ -159,17 +161,15 @@
  "init-navigation.el"
  "init-jedi.el"
  "init-elpa.el"
- "init-python.el"
- "init-elpy.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/pochi/.emacs.d/lisp/" (23681 53108 487195 382000) "init-python.el" "init-ocaml.el" "init-markdown.el" "init-org.el" "init-customkeybind.el" "init-rust.el" "init-helm.el" "init-customconfig.el" "init-navigation.el" "init-ui.el" "init-miscellaneous.el" "init-cmake.el" "init-asciidoc.el" "init-elpy.el" "init-cpp.el" "init-elpa.el" "init-web-mode.el" "init-editing.el" "init-haskell.el" "init-company-mode.el" "init-clojure.el" "init-glsl.el" "init-exec-path.el" "init-scala.el" "init-lisp.el" "../" "./")
+
+ ("/opt/repos/todo/" (23681 47250 678756 217000) ".git/" "todo.org" "../" "./")
+
  ("/Users/pochi/.emacs.d/" (23681 50992 463481 361000) ".recentf~" ".smex-items" ".git/" "anaconda-mode/" "elpa/" ".recentf" "init.el" ".python-environments/" "auto-save-list/" "projectile-bookmarks.eld" "ido.last~" "abbrev_defs" "lisp/" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
-
- ("/Users/pochi/.emacs.d/lisp/" (23681 49817 222915 868000) "init-python.el" "init-ocaml.el" "init-markdown.el" "init-customkeybind.el" "init-rust.el" "init-helm.el" "init-customconfig.el" "init-navigation.el" "init-ui.el" "init-miscellaneous.el" "init-cmake.el" "init-asciidoc.el" "init-elpy.el" "init-cpp.el" "init-elpa.el" "init-web-mode.el" "init-editing.el" "init-haskell.el" "init-company-mode.el" "init-clojure.el" "init-glsl.el" "init-exec-path.el" "init-scala.el" "init-lisp.el" "../" "./")
-
- ("/opt/repos/todo/" (23681 46866 935470 978000) ".git/" "../" "./")
 
  ("/opt/repos/" (23681 46866 935055 576000) "mirror/" "todolist.org" "jupyter/" "aws_sagemaker.md" "practice/" "meetings/" "model/" "project/" "env.md" "todo/" "google-cloud-sdk/" ".hoge/" ".DS_Store" "docker/" "note/" "reading/" "../" "./")
 

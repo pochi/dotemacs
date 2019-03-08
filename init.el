@@ -42,6 +42,7 @@
 (require 'init-customconfig)
 (require 'init-customkeybind)
 (require 'init-elpy)
+(require 'init-org)
 ;; (require 'init-jedi)
 
 (custom-set-variables

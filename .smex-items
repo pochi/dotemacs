@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ scroll-bar-mode
+ org-agenda
+ org-capture
  tool-bar-mode
  menu-bar-mode
  menu-set-font
  package-install
- font-show-log
- package-list-packages
- list-packages
 )
 
 ;; ----- smex-data -----
@@ -30,11 +30,14 @@
  (elpy-config . 2)
  (jedi:install-server . 12)
  (package-install-file . 2)
- (org-agenda . 1)
+ (org-agenda . 2)
  (list-packages . 1)
  (package-list-packages . 1)
  (font-show-log . 1)
  (menu-set-font . 5)
  (menu-bar-mode . 1)
  (tool-bar-mode . 1)
+ (org-capture . 1)
+ (org-mode-restart . 2)
+ (scroll-bar-mode . 1)
 )

@@ -46,4 +46,7 @@
 (setq-default line-spacing 0.2)
 ;; ツールバーを削除
 (tool-bar-mode -1)
+;; スクロールバーを削除
+(scroll-bar-mode -1)
+
 (provide 'init-ui)
