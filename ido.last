@@ -2,14 +2,94 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/opt/repos/mirror/" . "fuga/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/example/" . "filedemo/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/" . "example/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/" . "com/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/" . "java/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/" . "controller/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/" . "filedemo/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/" . "example/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/" . "com/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/" . "java/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/" . "main/")
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/" . "src/")
+ ("/opt/repos/project/kaggle/mnist/" . "data/")
+ ("/opt/repos/reading/pytorch/" . "test/")
+ ("/opt/repos/reading/chainer/tests/chainer_tests/functions_tests/" . "util_tests/")
+ ("/opt/repos/reading/chainer/tests/chainer_tests/" . "functions_tests/")
+ ("/opt/repos/reading/chainer/tests/" . "chainer_tests/")
+ ("/opt/repos/reading/sagemaker-python-sdk/src/sagemaker/" . "tensorflow/")
+ ("/opt/repos/reading/sagemaker-python-sdk/src/" . "sagemaker/")
+ ("/opt/repos/reading/sagemaker-python-sdk/examples/cli/" . "host/")
+ ("/opt/repos/reading/sagemaker-python-sdk/examples/" . "cli/")
+ ("/opt/repos/reading/sagemaker-python-sdk/" . "src/")
+ ("/opt/repos/project/go/src/github.com/pochi_black/" . "annotator/")
+ ("/opt/repos/project/go/src/github.com/" . "pochi_black/")
+ ("/usr/local/etc/" . "nginx/")
+ ("/usr/local/" . "etc/")
+ ("/opt/repos/project/kaggle/" . "mnist/")
+ ("/opt/repos/model/mnist/" . "1/")
+ ("/opt/repos/model/" . "mnist/")
+ ("/opt/repos/reading/SegCaps/" . "imgs/")
+ ("/opt/repos/reading/tensorflow/tensorflow/core/" . "protobuf/")
+ ("/opt/repos/reading/serving/tensorflow_serving/" . "util/")
+ ("/opt/repos/reading/serving/" . "tensorflow_serving/")
+ ("/opt/repos/project/go/src/demo_image/client/src/js/" . "modules/")
+ ("/opt/repos/project/go/src/demo_image/client/src/" . "js/")
+ ("/opt/repos/project/go/src/demo_image/client/publilc/" . "js/")
+ ("/opt/repos/project/go/src/demo_image/client/" . "publilc/")
+ ("/opt/repos/project/go/src/demo_image/app/views/" . "itakucode/")
+ ("/opt/repos/project/go/src/demo_image/app/" . "views/")
+ ("/opt/repos/project/go/src/demo_image/" . "app/")
+ ("/opt/repos/project/go/src/" . "github.com/")
+ ("/opt/repos/project/go/" . "src/")
+ ("/opt/repos/project/PSPNet-tensorflow/" . "list/")
+ ("/opt/repos/project/serving/tensorflow_serving/" . "example/")
+ ("/opt/repos/project/serving/" . "tensorflow_serving/")
+ ("/opt/repos/reading/keras/" . "keras/")
+ ("/opt/repos/project/language_basic/cpp/opencv/test/" . "build/")
+ ("/opt/repos/project/language_basic/cpp/opencv/" . "test/")
+ ("/opt/repos/project/language_basic/cpp/googletest/" . "test/")
+ ("/opt/repos/project/language_basic/python/django/showcase/dirs/templates/" . "dirs/")
+ ("/opt/repos/project/language_basic/python/django/showcase/dirs/" . "templates/")
+ ("/opt/repos/project/language_basic/python/django/showcase/" . "showcase/")
+ ("/opt/repos/project/language_basic/python/django/" . "showcase/")
+ ("/opt/repos/project/language_basic/cpp/test/lib/" . "googletest/")
+ ("/opt/repos/project/language_basic/cpp/test/" . "lib/")
+ ("/opt/repos/project/language_basic/cpp/" . "opencv/")
+ ("/opt/repos/reading/tensorflow/tensorflow/python/estimator/" . "canned/")
+ ("/opt/repos/reading/tensorflow/tensorflow/python/" . "platform/")
+ ("/opt/repos/reading/tensorflow/tensorflow/" . "python/")
+ ("/opt/repos/reading/tensorflow/" . "tensorflow/")
+ ("/opt/repos/note/machine_learning_book/part5/" . "icml/")
+ ("/opt/repos/project/language_basic/python/tensorflow/" . "digit_recognizer/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/contrib/keras/api/keras/" . "layers/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/contrib/keras/python/keras/" . "layers/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/contrib/keras/python/" . "keras/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/contrib/keras/api/" . "keras/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/contrib/keras/" . "python/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/contrib/" . "keras/")
+ ("//Users/pochi/.pyenv/versions/anaconda2-4.3.1/lib/python2.7/site-packages/tensorflow/" . "contrib/")
+ ("/opt/repos/project/deeplearning/data/" . "digit_recognizer/")
+ ("/opt/repos/project/deeplearning/" . "data/")
+ ("/opt/repos/project/language_basic/python/" . "opencv/")
+ ("/opt/repos/reading/chainer/chainer/links/" . "connection/")
+ ("/opt/repos/reading/chainer/chainer/" . "links/")
+ ("/opt/repos/reading/chainer/" . "tests/")
+ ("/opt/repos/reading/" . "pytorch/")
+ ("/opt/repos/project/language_basic/rust/" . "src/")
+ ("/opt/repos/project/language_basic/" . "rust/")
+ ("/opt/repos/note/machine_learning_book/part4/" . "images/")
+ ("/opt/repos/note/machine_learning_book/" . "part99/")
  ("/Users/pochi/.emacs.d/" . "lisp/")
  ("/Users/pochi/" . ".emacs.d/")
  ("/opt/repos/practice/" . "computer_vision/")
  ("/opt/repos/note/" . "machine_learning_book/")
- ("/opt/repos/project/" . "deeplearning/")
+ ("/opt/repos/project/" . "spring-boot-file-upload-download-rest-api-example/")
  ("/Users/kuroda/.emacs.d/elpa/" . "company-20160829.1206/")
  ("/Users/kuroda/.emacs.d/" . "elpa/")
- ("/opt/repos/" . "practice/")
+ ("/opt/repos/" . "todo/")
  ("/opt/" . "repos/")
  ("/" . "opt/")
  ("/Users/kuroda/" . ".emacs.d/")
@@ -19,69 +99,271 @@
 (
  "/Users/pochi/.emacs.d/lisp/"
  "/Users/pochi/.emacs.d/"
- "/opt/repos/practice/computer_vision/"
- "/opt/repos/note/machine_learning_book/meetings/"
- "/Users/pochi/"
+ "/opt/repos/todo/"
+ "/opt/repos/mirror/fuga/"
+ "/opt/repos/note/machine_learning_book/part5/"
+ "/Users/pochi/Desktop/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/controller/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/example/filedemo/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/resources/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/property/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/service/"
+ "/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/"
+ "/opt/repos/project/kaggle/mnist/data/"
+ "/opt/repos/project/dice/"
+ "/opt/repos/note/machine_learning_book/part99/"
+ "/opt/repos/reading/pytorch/test/"
+ "/opt/repos/reading/tensorflow/tensorflow/python/platform/"
+ "/opt/repos/reading/tensorflow/tensorflow/python/util/"
+ "/opt/repos/reading/chainer/tests/chainer_tests/functions_tests/util_tests/"
+ "/opt/repos/project/kaggle/santa/"
+ "/opt/repos/note/machine_learning_book/part5/coursera/"
+ "/opt/repos/project/atcoder/"
+ "/opt/repos/project/custom_estimator/"
+ "/opt/repos/note/machine_learning_book/part5/ibm/"
+ "/opt/repos/project/gan/"
+ "/opt/repos/note/machine_learning_book/"
+ "/opt/repos/note/machine_learning_book/part7/"
+ "/opt/repos/note/machine_learning_book/part3/"
+ "/opt/repos/note/machine_learning_book/part9/"
+ "/opt/repos/note/machine_learning_book/part8/"
+ "/opt/repos/note/machine_learning_book/part5/icml/"
+ "/opt/repos/"
+ "/opt/repos/reading/sagemaker-python-sdk/src/sagemaker/tensorflow/"
+ "/opt/repos/reading/sagemaker-python-sdk/examples/cli/host/"
+ "/opt/repos/reading/sagemaker-python-sdk/"
+ "/opt/repos/note/machine_learning_book/part4/images/"
+ "/opt/repos/project/go/src/github.com/pochi_black/annotator/"
+ "/opt/repos/project/go/src/github.com/pochi_black/annotator/templates/"
+ "/opt/repos/project/language_basic/rust/src/"
+ "/usr/local/etc/nginx/"
+ "/opt/repos/project/language_basic/python/numpy/"
+ "/opt/repos/note/machine_learning_book/part10/"
  "/opt/repos/project/deeplearning/"
- "/Users/kuroda/.emacs.d/elpa/company-20160829.1206/"
- "/Users/kuroda/.emacs.d/lisp/"
- "/Users/kuroda/.emacs.d/"
- "/opt/repos/deeplearning/"
+ "/opt/repos/reading/SegCaps/"
+ "/opt/repos/project/kaggle/berkeley_segmentation/"
+ "/opt/repos/reading/SegCaps/imgs/"
+ "/opt/repos/note/machine_learning_book/meetings/"
+ "/opt/repos/note/machine_learning_book/part1/"
+ "/opt/repos/reading/tensorflow/tensorflow/core/protobuf/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init-customkeybind.el"
+ "init-ui.el"
  "init.el"
- "features_sample.py"
- "jsai2017.md"
- "kaze_sample.py"
- "README.md"
- ".zshrc"
- "digit_recognizer.py"
- "mnist_estimator2.py"
- ".tmux.conf"
+ "init-doom.el"
+ "init-exec-path.el"
+ "todo.org"
+ "init-navigation.el"
+ "init-jedi.el"
+ "init-elpa.el"
+ "init-python.el"
+ "init-elpy.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/pochi/.emacs.d/lisp/" (22806 60600 0 0) "init-web-mode.el" "init-ui.el" "init-scala.el" "init-rust.el" "init-python.el" "init-ocaml.el" "init-navigation.el" "init-miscellaneous.el" "init-markdown.el" "init-lisp.el" "init-helm.el" "init-haskell.el" "init-glsl.el" "init-exec-path.el" "init-elpa.el" "init-editing.el" "init-customkeybind.el" "init-customconfig.el" "init-cpp.el" "init-company-mode.el" "init-cmake.el" "init-clojure.el" "init-asciidoc.el" "../" "./")
+ ("/Users/pochi/.emacs.d/" (23681 50992 463481 361000) ".recentf~" ".smex-items" ".git/" "anaconda-mode/" "elpa/" ".recentf" "init.el" ".python-environments/" "auto-save-list/" "projectile-bookmarks.eld" "ido.last~" "abbrev_defs" "lisp/" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
 
- ("/Users/pochi/.emacs.d/" (22820 56882 0 0) "projectile-bookmarks.eld" "lisp/" "init.el" "ido.last~" "ido.last" "elpa/" "auto-save-list/" "anaconda-mode/" "abbrev_defs" ".smex-items" ".recentf~" ".recentf" "../" "./")
+ ("/Users/pochi/.emacs.d/lisp/" (23681 49817 222915 868000) "init-python.el" "init-ocaml.el" "init-markdown.el" "init-customkeybind.el" "init-rust.el" "init-helm.el" "init-customconfig.el" "init-navigation.el" "init-ui.el" "init-miscellaneous.el" "init-cmake.el" "init-asciidoc.el" "init-elpy.el" "init-cpp.el" "init-elpa.el" "init-web-mode.el" "init-editing.el" "init-haskell.el" "init-company-mode.el" "init-clojure.el" "init-glsl.el" "init-exec-path.el" "init-scala.el" "init-lisp.el" "../" "./")
 
- ("/Users/pochi/" (22822 12166 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "dotemacs25/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-黒田雄一のMacBook Pro-5.2" ".zcompdump" ".viminfo" ".Trash/" ".tmux.conf" ".pyenv/" ".oh-my-zsh/" ".matplotlib/" ".keras/" ".jupyter/" ".ipython/" ".histfile" ".gitconfig" ".emacs.d/" ".DS_Store" ".conda/" ".chainer/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_history" "../" "./")
+ ("/opt/repos/todo/" (23681 46866 935470 978000) ".git/" "../" "./")
 
- ("/opt/repos/note/machine_learning_book/meetings/" (22819 40527 0 0) "jsai2017.md" "cogents.md" "../" "./")
+ ("/opt/repos/" (23681 46866 935055 576000) "mirror/" "todolist.org" "jupyter/" "aws_sagemaker.md" "practice/" "meetings/" "model/" "project/" "env.md" "todo/" "google-cloud-sdk/" ".hoge/" ".DS_Store" "docker/" "note/" "reading/" "../" "./")
 
- ("/opt/repos/practice/computer_vision/" (22819 40331 0 0) "features_sample.py" "data/" "../" "./")
+ ("/Users/pochi/" (23681 44399 418575 980000) ".gitbook/" ".conda/" "PlayOnMac's virtual drives/" ".viminfo" ".bash_history" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".histfile" ".m2/" ".vscode/" ".pyenv/" ".chainer/" "Documents/" ".npm/" ".keras/" ".zcompdump" ".jupyter/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" ".gitignore" "dotemacs25/" "Public/" ".bash_sessions/" ".zcompdump-黒田雄一のMacBook Pro-5.2" ".node_repl_history" ".emacs.d/" ".tfdbg_history" ".oracle_jre_usage/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".boto" ".zshrc.backup" "Pictures/" ".local/" ".zshrc" ".CFUserTextEncoding" "VirtualBox VMs/" ".tmux.conf" ".DS_Store" ".node-gyp/" ".gsutil/" ".docker/" ".kaggle/" "Music/" ".config/" "../" "./")
+
+ ("/opt/repos/mirror/fuga/" (23680 49431 37766 57000) ".git/" "sample.py" "../" "./")
+
+ ("/opt/repos/mirror/" (23281 18204 71140 908000) "fuga/" "../" "./")
+
+ ("/Users/pochi/Desktop/" (23609 25248 111840 654000) "JAL国内線 - 予約：空席照会結果_files/" "JAL国内線 - 予約：空席照会結果.htm" "newyork_summary.pdf" "ダウンロード.jpeg" "予約処理中にエラーが発生しました_files/" "スクリーンショット 2018-09-24 1.45.27.png" "スクリーンショット 2018-09-24 7.36.18.png" "スクリーンショット 2018-11-20 6.31.25.png" "doraemno.jpg" "karaage/" "スクリーンショット 2018-09-24 0.26.31.png" "スクリーンショット 2018-09-23 23.42.46.png" "スクリーンショット 2018-09-24 1.58.15.png" "mnist_example.jpeg" "予約処理中にエラーが発生しました.html" "スクリーンショット 2018-09-24 2.16.09.png" "スクリーンショット 2018-09-23 23.54.11.png" "スクリーンショット 2018-09-24 12.49.04.png" "スクリーンショット 2018-06-03 20.36.54.png" ".localized" "スクリーンショット 2018-09-24 2.28.26.png" ".DS_Store" "がっくん/" "ParadeBuster_trial/" "スクリーンショット 2018-09-24 0.42.45.png" "スクリーンショット 2018-09-24 2.23.03.png" "スクリーンショット 2018-09-24 0.46.21.png" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/" (23632 59693 67940 508000) "src/" "mvnw" ".git/" ".mvn/" ".gitignore" "Readme.md" "uploads/" "pom.xml" "target/" "mvnw.cmd" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/example/filedemo/" (23632 58862 874676 116000) "FileDemoApplicationTests.java" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/example/" (23632 58862 874577 195000) "filedemo/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/" (23632 58862 874524 369000) "example/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/" (23632 58862 874460 367000) "com/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/" (23632 58862 874318 627000) "java/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/resources/" (23632 58862 873594 624000) "application.properties" "static/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/controller/" (23632 58862 871798 404000) "FileController.java" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/property/" (23632 58862 872607 173000) "FileStorageProperties.java" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/service/" (23632 58862 873060 457000) "FileStorageService.java" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/filedemo/" (23632 58862 872950 173000) "exception/" "service/" "FileDemoApplication.java" "controller/" "payload/" "property/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/example/" (23632 58862 871445 281000) "filedemo/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/com/" (23632 58862 871298 145000) "example/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/java/" (23632 58862 871246 10000) "com/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/main/" (23632 58862 873349 638000) "java/" "resources/" "../" "./")
+
+ ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/" (23632 58862 874255 592000) "main/" "test/" "../" "./")
+
+ ("/opt/repos/project/" (23632 58861 465468 857000) "image_sample/" "PSPNet-tensorflow/" "spring-boot-file-upload-download-rest-api-example/" "custom_estimator/" "wish.md" "atcoder/" "karaage_dataset/" "language_basic/" "ansible-my-playbook/" "dice/" "deeplearning/" "kaggle/" ".DS_Store" "go/" "serving/" "newyork/" "go_binding/" "kawauso-classifier/" "gan/" "../" "./")
+
+ ("/opt/repos/project/kaggle/mnist/data/" (23621 20686 531991 455000) "sample_submission.csv" "train.csv" "test.csv" "../" "./")
+
+ ("/opt/repos/project/kaggle/mnist/" (23621 21188 313231 664000) "data/" ".ipynb_checkpoints/" "\"0\"と\"1\"の画像を判断する.ipynb" "../" "./")
+
+ ("/opt/repos/project/kaggle/" (23621 20705 795402 143000) "berkeley_segmentation/" "TrackML_Particle_Tracking_Challenge/" "tensorflow_speech/" "santa/" "avito/" "airbus/" "mercari/" ".DS_Store" "mnist/" "cdiscount/" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part5/" (23614 37461 127235 617000) "devsumi.md" "cookpad.md" "dl.md" "aws_sagemaker.md" "coursera/" "startup_python.md" "unirita2018.md" "jsai2017.md" "multi_perceptron.md" "segan.md" "dl_book/" "unirita2017.md" "perceptron.md" "jsai2018.md" "icml/" "imitation_learning.md" "tfug_3.md" "icml2018.md" "ibm/" "system_admin_2017.md" "aws_summit.md" "unirita_gassyuku_2017.md" "dena.md" "newyork_session.md" "alexa.md" "ntt_tech.md" "nips2017_pfn.md" "../" "./")
+
+ ("/opt/repos/project/dice/" (23604 47523 338240 442000) "__pycache__/" "dice.py" "create_dice_data.py" "perceptron.py" "dice_data.csv" "../" "./")
+
+ ("/opt/" (23049 52559 0 0) "X11/" ".DS_Store" "repos/" "../" "./")
+
+ ("/Users/" (23467 27589 897895 511000) "pochi/" "Guest/" "Shared/" ".localized" "../" "./")
+
+ ("/opt/repos/note/" (23108 33881 948881 778000) "machine_learning_book/" ".DS_Store" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/tensorflow/python/util/" (23558 61170 465666 516000) "decorator_utils_test.py" "compat_internal.py" "py_checkpoint_reader.i" "tf_export_test.py" "protobuf/" "serialization.py" "serialization_test.py" "kernel_registry.i" "nest_test.py" "tf_stack.py" "stat_summarizer.i" "tf_should_use.py" "kernel_registry.h" "keyword_args_test.py" "function_utils.py" "tf_export.py" "tf_should_use_test.py" "util.h" "tf_inspect.py" "util.i" "tf_decorator.py" "all_util.py" "util.cc" "future_api_test.py" "lock_util_test.py" "keyword_args.py" "tfprof.i" "is_in_graph_mode.py" "tf_decorator_test.py" "deprecation_test.py" "__init__.py" "lock_util.py" "function_utils_test.py" "tf_contextlib.py" "kernel_registry.cc" "dispatch.py" "future_api.py" "deprecation.py" "tf_inspect_test.py" "dispatch_test.py" "memory.py" "port.i" "transform_graph.i" "compat.py" "lazy_loader.py" "nest.py" "tf_contextlib_test.py" "example_parser_configuration.py" "example_parser_configuration_test.py" "decorator_utils.py" "../" "./")
+
+ ("/opt/repos/reading/pytorch/torch/" (23558 61147 274190 754000) "_utils.py" "distributions/" "serialization.py" "_thnn/" "for_onnx/" "sparse/" "abi-check.cpp" "extension.h" "README.txt" "lib/" "storage.py" "jit/" "functional.py" "testing/" "tensor.py" "_tensor_str.py" "hub.py" "random.py" "contrib/" "utils/" "__init__.py" "legacy/" "optim/" "_six.py" "_tensor_docs.py" "backends/" "cuda/" "multiprocessing/" "_utils_internal.py" "_ops.py" "_torch_docs.py" "autograd/" "distributed/" "onnx/" "nn/" "_jit_internal.py" "CMakeLists.txt" "script.h" "csrc/" "_storage_docs.py" "../" "./")
+
+ ("/opt/repos/reading/pytorch/test/" (23558 61147 75964 723000) "expect/" "data/" "test_c10d.py" "common_utils.py" "test_distributed.py" "test_autograd.py" "test_distributions.py" "run_test.py" "test_expecttest.py" "test_cuda.py" "cpp/" "common_cuda.py" "ffi/" "test_type_info.py" "test_thd_distributed.py" "test_cuda_primary_ctx.py" "bottleneck/" "test_indexing.py" "error_messages/" "test_cpp_extensions.py" "test_jit.py" "expecttest.py" "common_methods_invocations.py" "test_nn.py" "test_optim.py" "test_nccl.py" "optim/" "test_torch.py" "test_multiprocessing.py" "test_multiprocessing_spawn.py" "test_numba_integration.py" "custom_operator/" "onnx/" "test_sparse.py" "common_nn.py" "cpp_extensions/" "test_indexing_cuda.py" "test_dataloader.py" "test_utils.py" "test_module/" "../" "./")
+
+ ("/opt/repos/reading/pytorch/" (23558 61147 280483 768000) ".jenkins/" ".travis.yml" ".circleci/" "modules/" ".git/" "c10/" "aten/" "ubsan.supp" ".gitattributes" "tox.ini" ".github/" ".clang-format" "submodules/" "scripts/" "binaries/" "CONTRIBUTING.md" ".gitignore" "third_party/" ".dockerignore" "mypy-README.md" "setup.py" "mypy.ini" "README.md" "NOTICE" ".gitmodules" ".travis.aten.yml" "docs/" "torch/" ".clang-tidy" "CODEOWNERS" "caffe2/" "Makefile" "cmake/" "test/" "requirements.txt" "LICENSE" "CMakeLists.txt" "docker/" "tools/" "mypy-files.txt" "CITATION" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/" (23558 61167 790415 468000) "SECURITY.md" "models.BUILD" "ACKNOWLEDGMENTS" "ADOPTERS.md" ".git/" "BUILD" ".github/" "tensorflow/" "ISSUES.md" "CONTRIBUTING.md" ".gitignore" "third_party/" "RELEASE.md" "ISSUE_TEMPLATE.md" "README.md" "WORKSPACE" "CODEOWNERS" "AUTHORS" "configure" "LICENSE" "configure.py" "arm_compiler.BUILD" "tools/" "CODE_OF_CONDUCT.md" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/tensorflow/" (23558 61170 703561 80000) "compiler/" "stream_executor/" "c/" "BUILD" "docs_src/" "cc/" "api_template_v1.__init__.py" "workspace.bzl" "__init__.pyc" ".clang-format" "examples/" "contrib/" "tf_framework_version_script.lds" "java/" "__init__.py" "tf_version_script.lds" "api_template.__init__.py" "lite/" "js/" "security/" "compat_template_v1.__init__.py" "python/" "version_check.bzl" "opensource_only.files" "core/" "go/" "tools/" "g3doc/" "tf_exported_symbols.lds" "tensorflow.bzl" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/tensorflow/python/" (23558 61170 413918 83000) "tensorflow.i" "debug/" "pywrap_tensorflow.pyc" "summary/" "pywrap_tensorflow.py" "build_defs.bzl" "eager/" "client/" "data/" "BUILD" "profiler/" "ops/" "__init__.pyc" "lib/" "pywrap_dlopen_global_flags.py" "distribute/" "grappler/" "__init__.py" "user_ops/" "estimator/" "feature_column/" "platform/" "training/" "kernel_tests/" "framework/" "util/" "layers/" "saved_model/" "compat/" "tools/" "pywrap_tfe.i" "keras/" "tf2.py" "autograph/" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/tensorflow/python/platform/" (23558 61170 399188 630000) "base.i" "parameterized.py" "sysconfig.py" "stacktrace_handler.i" "googletest.py" "app.py" "resource_loader.py" "test.py" "self_check.py" "__init__.py" "flags.py" "control_imports.py" "logging_test.py" "resource_loader_test.py" "app_test.py" "flags_test.py" "benchmark.py" "tf_logging.py" "build_info_test.py" "status_bar.py" "stacktrace_handler_test.py" "gfile.py" "../" "./")
+
+ ("/opt/repos/reading/chainer/tests/chainer_tests/functions_tests/util_tests/" (23558 60922 526675 237000) "test_forget.py" "__init__.py" "../" "./")
+
+ ("/opt/repos/reading/chainer/tests/chainer_tests/functions_tests/" (23558 60922 480287 432000) "evaluation_tests/" "pooling_tests/" "noise_tests/" "util_tests/" "normalization_tests/" "array_tests/" "__init__.py" "connection_tests/" "math_tests/" "loss_tests/" "activation_tests/" "../" "./")
+
+ ("/opt/repos/reading/chainer/tests/chainer_tests/" (23558 60922 551237 983000) "backends_tests/" "optimizer_hooks_tests/" "test_init.py" "testing_tests/" "test_gradient_check.py" "dataset_tests/" "training_tests/" "exporters_tests/" "test_computational_graph.py" "test_initializer.py" "iterators_tests/" "test_variable.py" "optimizers_tests/" "initializer_tests/" "test_function.py" "serializers_tests/" "datasets_tests/" "test_link_hook.py" "test_function_node.py" "test_cuda.py" "test_backprop.py" "test_runtime_info.py" "utils_tests/" "test_runnable.py" "__init__.py" "test_backprop_utils.py" "test_sequential.py" "test_configuration.py" "distributions_tests/" "test_link.py" "function_hooks_tests/" "links_tests/" "functions_tests/" "conftest.py" "graph_optimization_tests/" "test_reporter.py" "test_optimizer.py" "test_init_docstring.py" "test_backend.py" "test_function_hook.py" "../" "./")
+
+ ("/opt/repos/reading/chainer/tests/" (23558 60922 577984 622000) "chainerx_tests/" "chainermn_tests/" "chainer_tests/" "../" "./")
+
+ ("/opt/repos/reading/chainer/chainer/" (23558 60922 257041 374000) "graph_optimizations/" "initializers/" "iterators/" "_runtime_info.py" "function.py" "distributions/" "optimizer_hooks/" "_backprop_utils.py" "functions/" "serializer.py" "optimizer.py" "links/" "cuda.py" "function_node.py" "computational_graph.py" "serializers/" "initializer.py" "sequential.py" "testing/" "variable.py" "distribution.py" "optimizers/" "function_hooks/" "utils/" "__init__.py" "datasets/" "reporter.py" "backends/" "training/" "dataset/" "exporters/" "_version.py" "function_hook.py" "_environment_check.py" "_backend.py" "gradient_check.py" "backend.py" "link_hook.py" "configuration.py" "link.py" "../" "./")
+
+ ("/opt/repos/reading/chainer/" (23558 60922 466269 875000) "chainerx/" ".travis.yml" "chainer/" ".circleci/" ".git/" "chainerx_cc/" "chainermn/" "chainer_bibtex.txt" "setup.cfg" "appveyor/" ".github/" "examples/" ".gitignore" "setup.py" "appveyor.yml" "README.md" "docs/" ".coveragerc" "MANIFEST.in" "chainerx_build_helper.py" "tests/" "LICENSE" "docker/" "chainermn_bibtex.txt" "chainerx.md" "codecov.yml" "readthedocs.yml" "../" "./")
+
+ ("/opt/repos/reading/" (23558 60880 763898 429000) "P/" "chainer/" "pytorch/" "SegCaps/" "tensorflow/" "sufee-admin-dashboard/" "sagemaker-python-sdk/" "chainercv/" "serving/" "keras/" "../" "./")
+
+ ("/opt/repos/project/kaggle/santa/" (23557 20966 191597 244000) ".git/" ".ipynb_checkpoints/" "tsp.ipynb" ".gitignore" "l2_norm.ipynb" "pyconcorde/" "submission.csv" "tsp solver.ipynb" "input/" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part5/coursera/" (23538 22746 225534 472000) "memo.md" "../" "./")
+
+ ("/opt/repos/project/atcoder/" (23536 3874 804915 547000) ".git/" "daydream.py" "card_game_for_two.py" "coins.py" "shift_only.py" "otoshidama.py" "placing_marbles.py" "kagamimochi.py" "traveling.py" "some_sums.py" "../" "./")
+
+ ("/opt/repos/project/custom_estimator/" (23531 16220 444628 440000) "unet.py" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/" (23467 26249 136715 420000) "tmp/" ".git/" "meetings/" "_book/" "part8/" "part6/" "part1/" "part7/" "part9/" "package-lock.json" ".gitignore" "sample_codes/" "part10/" "README.md" "part99/" "book.json" "etc/" "node_modules/" "images/" "SUMMARY.md" "part2/" "part5/" "part4/" "part3/" ".DS_Store" "book.pdf" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part5/ibm/" (23521 5128 904458 526000) "20181108_ibm_analytics.md" "../" "./")
+
+ ("/opt/repos/project/gan/" (23463 47670 289975 669000) "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part7/" (22806 62015 0 0) "pirtial_differential.md" "README.md" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part9/" (23462 16516 120748 358000) "gan.md" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part99/" (23375 58732 750992 35000) "maintenance.md" "referencies.md" "qa.md" "vocaburaries.md" "../" "./")
 
  ("/opt/repos/practice/" (22819 24608 0 0) "computer_vision/" "../" "./")
 
- ("/opt/repos/" (22819 24600 0 0) "reading/" "project/" "practice/" "note/" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/src/sagemaker/tensorflow/" (23451 6829 735942 193000) "estimator.py" "README.rst" "defaults.py" "tensorflow_serving/" "model.py" "__init__.py" "predictor.py" "../" "./")
 
- ("/opt/repos/note/machine_learning_book/" (22818 43145 0 0) "SUMMARY.md" "sample_codes/" "README.md" "part99/" "part7/" "part6/" "part5/" "part4/" "part3/" "part2/" "part1/" "meetings/" "images/" "book.pdf" "book.json" ".gitignore" ".git/" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/src/sagemaker/" (23451 6829 739727 22000) "chainer/" "estimator.py" "pytorch/" "tuner.py" "analytics.py" "tensorflow/" "transformer.py" "logs.py" "utils.py" "local/" "model.py" "cli/" "fw_utils.py" "__init__.py" "content_types.py" "session.py" "job.py" "mxnet/" "amazon/" "user_agent.py" "predictor.py" "../" "./")
 
- ("/opt/repos/note/" (22806 61917 0 0) "machine_learning_book/" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/src/" (23451 6829 720207 126000) "sagemaker/" "../" "./")
 
- ("/opt/repos/project/deeplearning/" (22817 25820 0 0) "tensorsample.py" "tegaki.ipynb" "sigmond.py" "result/" "mnist_estimator2.py" "mnist_estimator.py" "kouza/" "iris_training.csv" "iris_test.csv" "iris_model2/" "hoge.png" "FEG.md" "digit_reginizer/" "digit_recognizer.py" "data/" "CNNJapaneseCharacter.py" "CNNJapaneseCharacter.ipynb" "1_4_1_tensor2.py" "1_4_1_tensor.py" "1_4_1_chainer.py" "1_4_1.R" "1_4_1.py" ".gitignore" ".git/" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/examples/cli/host/" (23451 6829 686592 572000) "data/" "script.py" "run_hosting_example.sh" "../" "./")
 
- ("/opt/repos/project/" (22812 31487 0 0) "deeplearning/" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/examples/cli/" (23451 6829 686809 991000) "train/" "host/" "../" "./")
 
- ("/opt/" (22806 61854 0 0) "repos/" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/examples/" (23451 6829 683117 608000) "cli/" "../" "./")
 
- ("/Users/" (22806 59588 0 0) "Shared/" "pochi/" "Guest/" ".localized" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/branding/" (23451 6829 679332 514000) "icon/" "../" "./")
 
- ("/Users/kuroda/.emacs.d/elpa/company-20160829.1206/" (22562 62317 0 0) "company.elc" "company.el" "company-yasnippet.elc" "company-yasnippet.el" "company-xcode.elc" "company-xcode.el" "company-tempo.elc" "company-tempo.el" "company-template.elc" "company-template.el" "company-semantic.elc" "company-semantic.el" "company-pkg.el" "company-oddmuse.elc" "company-oddmuse.el" "company-nxml.elc" "company-nxml.el" "company-keywords.elc" "company-keywords.el" "company-ispell.elc" "company-ispell.el" "company-gtags.elc" "company-gtags.el" "company-files.elc" "company-files.el" "company-etags.elc" "company-etags.el" "company-elisp.elc" "company-elisp.el" "company-eclim.elc" "company-eclim.el" "company-dabbrev.elc" "company-dabbrev.el" "company-dabbrev-code.elc" "company-dabbrev-code.el" "company-css.elc" "company-css.el" "company-cmake.elc" "company-cmake.el" "company-clang.elc" "company-clang.el" "company-capf.elc" "company-capf.el" "company-bbdb.elc" "company-bbdb.el" "company-autoloads.el" "company-abbrev.elc" "company-abbrev.el" "../" "./")
+ ("/opt/repos/reading/sagemaker-python-sdk/" (23451 6830 231798 558000) "src/" ".travis.yml" "LICENSE.txt" ".git/" "CHANGELOG.rst" "README.rst" "setup.cfg" "doc/" "tox.ini" ".github/" "examples/" "CONTRIBUTING.md" ".gitignore" "setup.py" "NOTICE.txt" ".rtd-environment.yml" ".coveragerc" "MANIFEST.in" "tests/" "bin/" ".codecov.yml" "branding/" ".flake8" "CODE_OF_CONDUCT.md" "readthedocs.yml" "../" "./")
 
- ("/Users/kuroda/.emacs.d/elpa/" (22562 61703 0 0) "yasnippet-20161026.1601/" "web-mode-20161106.132/" "tuareg-20160710.1045/" "spinner-1.7.1/" "smex-20151212.1409/" "seq-2.19/" "scala-mode-20160902.525/" "sbt-mode-20161026.350/" "s-20160928.636/" "rust-mode-20161031.2109/" "rtags-20161028.1136/" "rainbow-delimiters-20160430.2358/" "racer-20161105.1637/" "queue-0.1.1/" "pythonic-20160221.1123/" "pyenv-mode-20160221.1123/" "projectile-20161108.729/" "popup-20160709.729/" "pkg-info-20150517.443/" "peg-20150707.2341/" "paredit-20160615.1325/" "multiple-cursors-20161021.1431/" "merlin-20161017.205/" "markup-faces-20141110.17/" "markdown-mode-20160928.932/" "levenshtein-20051013.1056/" "inflections-20161017.157/" "ido-ubiquitous-20160623.815/" "ido-completing-read+-20160623.815/" "hydra-20160913.216/" "helm-core-20161108.1302/" "helm-20161108.1310/" "haskell-mode-20161107.653/" "golden-ratio-20150819.420/" "glsl-mode-20160209.833/" "flycheck-rust-20161019.1103/" "flycheck-20161106.149/" "f-20161002.800/" "exec-path-from-shell-20160812.159/" "epl-20150517.433/" "ensime-20161031.246/" "edn-20160215.419/" "dash-20161108.352/" "company-anaconda-20160809.705/" "company-20160829.1206/" "cmake-mode-20160928.505/" "cmake-ide-20161023.1225/" "cmake-font-lock-20150828.1327/" "clojure-mode-extra-font-locking-20160307.414/" "clojure-mode-20161105.2359/" "clj-refactor-20161005.344/" "cider-20161016.424/" "caml-20151009.845/" "atom-one-dark-theme-20161101.1955/" "async-20161103.1036/" "archives/" "anaconda-mode-20161028.29/" "ag-20161027.1758/" "adoc-mode-20160314.1430/" "../" "./")
+ ("/opt/repos/project/go/src/github.com/" (23428 28426 894331 807000) "mattn/" "inconshreveable/" "agtorre/" "xeonx/" "codegangsta/" "ugorji/" "pochi_black/" "gin-contrib/" "golang/" "gin-gonic/" "klauspost/" "0xAX/" "revel/" "kardianos/" "../" "./")
 
- ("/Users/kuroda/.emacs.d/" (22562 62235 0 0) "projectile-bookmarks.eld" "lisp/" "init.el" "ido.last" "elpa/" "backups/" "auto-save-list/" "anaconda-mode/" "abbrev_defs" ".smex-items" ".recentf" "../" "./")
+ ("/opt/repos/project/go/src/github.com/pochi_black/annotator/" (23428 28670 222962 168000) "vendor/" "main.go" ".git/" "templates/" "README.md" "gin-bin" "../" "./")
 
- ("/Users/kuroda/.emacs.d/lisp/" (22562 62290 0 0) "init-web-mode.el" "init-ui.el" "init-scala.el" "init-rust.el" "init-python.el" "init-ocaml.el" "init-navigation.el" "init-miscellaneous.el" "init-markdown.el" "init-lisp.el" "init-helm.el" "init-haskell.el" "init-glsl.el" "init-exec-path.el" "init-elpa.el" "init-editing.el" "init-cpp.el" "init-company-mode.el" "init-cmake.el" "init-clojure.el" "init-asciidoc.el" "../" "./")
+ ("/opt/repos/project/go/src/github.com/pochi_black/annotator/templates/" (23428 28226 807510 471000) "main.impl" "home.tmpl" "../" "./")
 
- ("/opt/repos/deeplearning/" (22562 62269 0 0) "tensorsample.py" "sigmond.py" "hoge.png" "deeplearning.Rproj" "data/" "1_4_1_tensor.py" "1_4_1.R" "1_4_1.py" ".Rproj.user/" ".Rhistory" ".RData" ".gitignore" ".git/" "../" "./")
+ ("/opt/repos/project/go/src/github.com/pochi_black/" (23428 27518 960541 365000) "annotator/" "../" "./")
 
- ("/Users/kuroda/" (22562 59628 0 0) "VirtualBox VMs/" "utils/" "server.crt" "seaborn-data/" "Public/" "Pictures/" "naofw-06e8dd-0.0.0.pkg" "NaoFramework5/" "NaoFramework3/" "NaoFramework (2)/" "NaoFramework/" "Nao/" "Music/" "Movies/" "Library/" "homebrew/" "hogemoge/" "gitflow/" "git/" "face3/" "face2/" "dump.rdb" "Downloads/" "Documents/" "DI_face_detection/" "Desktop/" "Applications/" ".zshrc" ".zcompdump" ".wireshark-etc/" ".wireshark/" ".vscode/" ".viminfo" ".Trash/" ".tmux.conf.bak" ".tmux.conf" ".subversion/" ".ssh/" ".spark_history" ".scraping" ".scala_history" ".sbt/" ".rstudio-desktop/" ".rnd" ".Rhistory" ".pylint.d/" ".pry_history" ".p2/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".mix/" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".jupyter/" ".jazz-scm/" ".ivy2/" ".ipython/" ".histfile" ".hex/" ".heroku/" ".gradle/" ".gore/" ".gitignore" ".gitconfig" ".Genymobile/" ".gem/" ".emacs.d/" ".elixir_utils/" ".eclipse/" ".DS_Store" ".continuum/" ".config/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".bash_profile" ".bash_history" ".aws/" ".atom/" ".appgyver/" ".AndroidStudio1.2/" ".android/" "../" "./")
+ ("/opt/repos/project/go/src/" (23428 27074 141756 217000) "demo_image/" "github.com/" "golang.org/" "sample/" "gopkg.in/" "../" "./")
+
+ ("/opt/repos/project/go/src/sample/" (23428 27105 898554 360000) "sample.go" "../" "./")
+
+ ("/opt/repos/project/language_basic/rust/src/" (22889 21239 0 0) "example.rs" "../" "./")
+
+ ("/opt/repos/project/language_basic/rust/" (22889 25660 0 0) "src/" "lib" ".gitignore" "Cargo.lock" "example" "target/" "Cargo.toml" "../" "./")
+
+ ("/usr/local/etc/nginx/" (23427 8313 153201 67000) "servers/" ".git/" "nginx.conf" "win-utf" "koi-utf" "mime.types" "koi-win" "uwsgi_params" "fastcgi_params.default" "fastcgi.conf" "fastcgi.conf.default" "scgi_params.default" "scgi_params" "fastcgi_params" "mime.types.default" "nginx.conf.default" "uwsgi_params.default" "../" "./")
+
+ ("/usr/local/etc/" (23427 6049 105499 530000) "openssl/" "fonts/" "openssl@1.1/" "nginx/" "bash_completion.d/" "../" "./")
+
+ ("/usr/local/" (23060 19366 518363 901000) "share/" "Cellar/" "Frameworks/" "opt/" "lib/" "Caskroom/" "var/" "Homebrew/" "etc/" "remotedesktop/" "include/" ".com.apple.installer.keep" "bin/" "../" "./")
+
+ ("/usr/" (23060 19368 535494 126000) "share/" "X11/" "lib/" "local/" "sbin/" "libexec/" "standalone/" "bin/" "../" "./")
+
+ ("/opt/repos/project/language_basic/python/opencv/" (23037 2314 0 0) "sample.jpeg" ".ipynb_checkpoints/" "detect_lines.ipynb" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part10/" (23394 55853 409566 136000) "binarization.md" "README.md" "basic.md" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part8/" (23375 58732 750715 911000) "segan.md" "README.md" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part4/" (23375 58732 741555 30000) "characters/" "text/" "regressions/" "reduction/" "classifier/" "README.md" "problems/" "cs231n/" "chatbot/" "images/" "deeplearning/" "gan/" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part3/" (23375 58732 740352 958000) "aws_machine_learning.md" "tensorflow_serving_source.md" "README.md" "azure_machine_learning.md" "tensorflow_serving.md" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part5/icml/" (23375 58732 749228 669000) "day4_test_time_of_awardfacebook_ai_research.md" "day6_theoretical_foundations_and_applications_of_deep_generative_models_poster_session.md" "reinforcement_learning.md" "computer_vision.md" "ranking_and_preference_learning_2.md" "deeplearning_theory_1.md" "imitation_learning.md" "ai_and_security.md" "deeplearning_neural_network_architecture_11.md" "invite_session_real_ai.md" "invite_session_acl.md" "deep_learning_neural_network_architectures_10.md" "best_paper_sessions2.md" "day2_poster_session.md" "pochi.md" "statistical_learning_theory_4.md" "deeplearning_theory_2.md" "day3_poster_session.md" "day6_theoretical_foundations_and_applications_of_deep_generative_models.md" "yandex_session.md" "variational_bayes_and_beyond:_bayesian_inference_for_bigdata.md" "day5_cognitive_vision_workshop.md" "towards_theorotical_understanding_of_deep_learning.md" "day1_poster_session.md" "day3_invited_session.md" "best_paper_sessions.md" "supervised_learning_2.md" "computer_vision2.md" "../" "./")
+
+ ("/opt/repos/project/deeplearning/" (23358 61501 126988 699000) "sigmond.py" "digit_recognizer_tensor.py" "digit_recognizer.py" "data/" "tensorsample.py" ".git/" "tegaki.ipynb" "iris_training.csv" "1_4_1.py" ".gitignore" "cnn_sample.py" "mnist_estimator2.py" "deep_direct_regression/" "CNNJapaneseCharacter.py" "1_4_1_tensor.py" "kmeans.py" "mnist_estimator.py" "iris_test.csv" "digit_recognizer_chainer.py" "CNNJapaneseCharacter.ipynb" "kouza/" "hoge.png" "result/" "opencv_examples/" "1_4_1.R" "FEG.md" "../" "./")
+
+ ("/opt/repos/project/kaggle/berkeley_segmentation/" (23328 18215 275928 432000) "data/" "train.py" ".DS_Store" "../" "./")
+
+ ("/opt/repos/model/mnist/1/" (23131 53830 303101 875000) "saved_model.pb" "variables/" "../" "./")
+
+ ("/opt/repos/model/mnist/" (23131 53830 156922 317000) "1/" "../" "./")
+
+ ("/opt/repos/model/" (23131 53726 90763 182000) "mnist/" "../" "./")
+
+ ("/opt/repos/reading/SegCaps/imgs/" (23300 61157 538644 871000) "qualitative1.png" "manip_cropped.png" "baselinecaps.png" "segcaps.png" "../" "./")
+
+ ("/opt/repos/reading/SegCaps/" (23300 61157 544399 321000) "subpixel_upscaling.py" "capsule_layers.py" "main.py" ".git/" "manip.py" "model_helper.py" "train.py" ".gitignore" "capsnet.py" "load_3D_data.py" "README.md" "test.py" "densenets.py" "unet.py" "imgs/" "custom_losses.py" "requirements.txt" "LICENSE" "custom_data_aug.py" "metrics.py" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part1/" (23280 24426 244776 841000) "neuron.md" "auganization.md" "description.md" "TODO.md" "case.md" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/part4/images/" (23252 43619 610020 79000) "unet.md" "googlenet.md" "README.md" "convnets.md" "resnet.md" "capsnet.md" "handwritten_japanese.md [No match] [No match]" "../" "./")
+
+ ("/opt/repos/note/machine_learning_book/meetings/" (23251 61805 639704 822000) "cookpad.md" "nssol.md" "aws.md" "sinamon.md" "jsai2017.md" "pixar.md" "microsoft.md" "fujifilm.md" "fujitsu.md" "cogents.md" "cwt2017.md" "mio.md" "btmu.md" "nips2017_pfn.md" "hitachi.md" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/tensorflow/core/protobuf/" (22969 45197 0 0) "device_properties.proto" "config.proto" "control_flow.proto" "tensor_bundle.proto" "queue_runner.proto" "saver.proto" "rewriter_config.proto" "meta_graph.proto" "tensorflow_server.proto" "debug.proto" "cluster.proto" "saved_model.proto" "worker_service.proto" "master_service.proto" "master.proto" "named_tensor.proto" "worker.proto" "../" "./")
+
+ ("/opt/repos/reading/tensorflow/tensorflow/core/" (22969 45197 0 0) "debug/" "distributed_runtime/" "protobuf/" "BUILD" "profiler/" "ops/" "lib/" "public/" "grappler/" "common_runtime/" "graph/" "user_ops/" "platform/" "example/" "framework/" "util/" "kernels/" "../" "./")
+
+ ("/opt/repos/reading/serving/tensorflow_serving/util/" (23211 38447 122143 279000) "unique_ptr_with_deps_test.cc" "file_probing_env.h" "optional.cc" "event_bus_test.cc" "class_registration.h" "hash.h" "retrier.cc" "threadpool_executor.h" "BUILD" "threadpool_executor.cc" "any_ptr.h" "test_util/" "status_util_test.cc" "executor.h" "retrier_test.cc" "unique_ptr_with_deps.h" "fast_read_dynamic_ptr_benchmark.cc" "inline_executor_test.cc" "fast_read_dynamic_ptr.h" "retrier.h" "status_util.cc" "any_ptr_test.cc" "class_registration_util.cc" "optional.h" "inline_executor.h" "file_probing_env.cc" "status.proto" "threadpool_executor_test.cc" "hash.cc" "optional_test.cc" "class_registration_test.cc" "cleanup_test.cc" "class_registration_util.h" "event_bus.h" "observer.h" "status_util.h" "observer_test.cc" "fast_read_dynamic_ptr_test.cc" "class_registration_test.proto" "inline_executor.cc" "cleanup.h" "../" "./")
+
+ ("/opt/repos/reading/serving/tensorflow_serving/model_servers/" (23229 54087 255428 301000) "get_model_status_impl.cc" "model_service_impl.h" "BUILD" "grpc_status_util.cc" "model_service_impl.cc" "tensorflow_model_server_test_client.py" "test_util/" "get_model_status_impl.h" "grpc_status_util.h" "get_model_status_impl_test.cc" "model_platform_types.h" "server_core_test.cc" "tensorflow_model_server_test.py" "server_core.h" "server_core.cc" "platform_config_util.h" "platform_config_util.cc" "main.cc" "../" "./")
+
+ ("/opt/repos/reading/serving/tensorflow_serving/apis/internal/" (23112 60690 505784 982000) "BUILD" "serialized_input.proto" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

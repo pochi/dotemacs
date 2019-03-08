@@ -14,6 +14,11 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  )
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (add-to-list 'load-path (expand-file-name "site-lisp" user-emacs-directory))
@@ -36,6 +41,8 @@
 (require 'init-helm)
 (require 'init-customconfig)
 (require 'init-customkeybind)
+(require 'init-elpy)
+;; (require 'init-jedi)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -49,8 +56,9 @@
     (helm-source-buffers-list helm-source-recentf helm-source-files-in-current-dir)))
  '(package-selected-packages
    (quote
-    (rust-mode go-mode undo-tree markdown-mode+ helm-ag ag helm merlin tuareg web-mode smex rtags rainbow-delimiters racer pyenv-mode projectile markdown-mode ido-ubiquitous haskell-mode golden-ratio glsl-mode flycheck-rust exec-path-from-shell ensime company-anaconda cmake-ide cmake-font-lock clojure-mode-extra-font-locking clj-refactor atom-one-dark-theme adoc-mode)))
+    (atom-dark-theme org-bullets doom-themes elpy protobuf-mode rjsx-mode react-snippets rust-mode go-mode undo-tree markdown-mode+ helm-ag ag helm merlin tuareg web-mode smex rtags rainbow-delimiters racer pyenv-mode projectile markdown-mode ido-ubiquitous haskell-mode golden-ratio glsl-mode flycheck-rust exec-path-from-shell ensime company-anaconda cmake-ide cmake-font-lock clojure-mode-extra-font-locking clj-refactor atom-one-dark-theme adoc-mode)))
  '(rtags-path (substitute-in-file-name "$HOME/.cpp-dev/bin")))
+
 
 (provide 'init)
 (custom-set-faces
@@ -59,4 +67,5 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
 

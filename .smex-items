@@ -1,19 +1,40 @@
 
 ;; ----- smex-history -----
 (
+ tool-bar-mode
+ menu-bar-mode
+ menu-set-font
  package-install
- check-parens
- indent-region
- replace-string
- cd
- 5x5
- arp
+ font-show-log
+ package-list-packages
+ list-packages
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 3)
- (replace-string . 1)
- (indent-region . 1)
+ (package-install . 20)
+ (replace-string . 24)
+ (indent-region . 6)
  (check-parens . 2)
+ (make-directory . 26)
+ (python-indent-guess-indent-offset . 1)
+ (comment-dwim . 7)
+ (comment-region . 3)
+ (markdown-preview . 1)
+ (package-refresh-contents . 2)
+ (html-mode . 1)
+ (python-mode . 1)
+ (org-mode . 3)
+ (grep . 1)
+ (elpy-mode . 2)
+ (elpy-config . 2)
+ (jedi:install-server . 12)
+ (package-install-file . 2)
+ (org-agenda . 1)
+ (list-packages . 1)
+ (package-list-packages . 1)
+ (font-show-log . 1)
+ (menu-set-font . 5)
+ (menu-bar-mode . 1)
+ (tool-bar-mode . 1)
 )

@@ -9,36 +9,41 @@
 ;;; Code:
 
 (require 'init-elpa)
-(require-package 'atom-one-dark-theme)
-(require-package 'golden-ratio)
 
-(require 'golden-ratio)
+(require 'doom-themes)
 
-(setq inhibit-startup-message t)
-(menu-bar-mode -1)
-(when (fboundp 'tool-bar-mode)
-  (tool-bar-mode -1))
-(when (fboundp 'scroll-bar-mode)
-  (scroll-bar-mode -1))
+;; Global settings (defaults)
+(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+      doom-themes-enable-italic t
+      doom-font (font-spec :family "Fira Mono" :size 14)) ; if nil, italics is universally disabled
 
-(set-face-attribute 'default nil :height 140)
-(setq-default line-spacing 0.4)
+;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each theme
+;; may have their own settings.
 
-(setq
-      x-select-enable-clipboard t
-      x-select-enable-primary t
-      save-interprogram-paste-before-kill t
-      apropos-do-all t
-      mouse-yank-at-point t)
+;;(doom-themes-enable-italic t)
+;;(doom-themes-enable-bold t)
+;;(doom-modeline-bar ((t (:background "#6272a4"))))
+(load-theme 'doom-dracula t)
+;;(doom-themes-neotree-config)
 
-(load-theme 'atom-one-dark t)
+;; Enable flashing mode-line on errors
+(doom-themes-visual-bell-config)
 
-(blink-cursor-mode 0)
-(setq-default cursor-type 'bar)
-(set-cursor-color "#cccccc")
-(setq ring-bell-function 'ignore)
+;; Enable custom neotree theme (all-the-icons must be installed!)
+(doom-themes-neotree-config)
+;; or for treemacs users
+(doom-themes-treemacs-config)
 
-(golden-ratio-mode 1)
+;; Corrects (and improves) org-mode's native fontification.
+(doom-themes-org-config)
 
+;; フォントサイズを指定
+(set-face-attribute 'default nil
+                    :family "Ricty"
+                    :height 160)
+
+;; 行間を指定
+(setq-default line-spacing 0.2)
+;; ツールバーを削除
+(tool-bar-mode -1)
 (provide 'init-ui)
-;;; init-ui.el ends here
