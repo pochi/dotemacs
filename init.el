@@ -43,6 +43,7 @@
 (require 'init-customkeybind)
 (require 'init-elpy)
 (require 'init-org)
+(require 'init-magit)
 ;; (require 'init-jedi)
 
 (custom-set-variables
@@ -57,7 +58,7 @@
     (helm-source-buffers-list helm-source-recentf helm-source-files-in-current-dir)))
  '(package-selected-packages
    (quote
-    (atom-dark-theme org-bullets doom-themes elpy protobuf-mode rjsx-mode react-snippets rust-mode go-mode undo-tree markdown-mode+ helm-ag ag helm merlin tuareg web-mode smex rtags rainbow-delimiters racer pyenv-mode projectile markdown-mode ido-ubiquitous haskell-mode golden-ratio glsl-mode flycheck-rust exec-path-from-shell ensime company-anaconda cmake-ide cmake-font-lock clojure-mode-extra-font-locking clj-refactor atom-one-dark-theme adoc-mode)))
+    (magit atom-dark-theme org-bullets doom-themes elpy protobuf-mode rjsx-mode react-snippets rust-mode go-mode undo-tree markdown-mode+ helm-ag ag helm merlin tuareg web-mode smex rtags rainbow-delimiters racer pyenv-mode projectile markdown-mode ido-ubiquitous haskell-mode golden-ratio glsl-mode flycheck-rust exec-path-from-shell ensime company-anaconda cmake-ide cmake-font-lock clojure-mode-extra-font-locking clj-refactor atom-one-dark-theme adoc-mode)))
  '(rtags-path (substitute-in-file-name "$HOME/.cpp-dev/bin")))
 
 

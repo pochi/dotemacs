@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- scroll-bar-mode
- org-agenda
- org-capture
- tool-bar-mode
- menu-bar-mode
- menu-set-font
  package-install
+ org-capture
+ package-install-file
+ make-directory
+ replace-string
+ jedi:install-server
+ comment-dwim
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 20)
+ (package-install . 24)
  (replace-string . 24)
  (indent-region . 6)
  (check-parens . 2)
@@ -29,7 +29,7 @@
  (elpy-mode . 2)
  (elpy-config . 2)
  (jedi:install-server . 12)
- (package-install-file . 2)
+ (package-install-file . 5)
  (org-agenda . 2)
  (list-packages . 1)
  (package-list-packages . 1)
@@ -37,7 +37,13 @@
  (menu-set-font . 5)
  (menu-bar-mode . 1)
  (tool-bar-mode . 1)
- (org-capture . 1)
+ (org-capture . 13)
  (org-mode-restart . 2)
  (scroll-bar-mode . 1)
+ (magit-status . 7)
+ (magit-commit . 1)
+ (magit-mode . 1)
+ (org-clock-in . 3)
+ (org-clock-out . 3)
+ (magit . 1)
 )

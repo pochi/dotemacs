@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/" . "pochi/")
+ ("/Users/pochi/.emacs.d/elpa/" . "transient-20190304.2257/")
  ("/opt/repos/mirror/" . "fuga/")
  ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/example/" . "filedemo/")
  ("/opt/repos/project/spring-boot-file-upload-download-rest-api-example/src/test/java/com/" . "example/")
@@ -82,7 +84,7 @@
  ("/opt/repos/project/language_basic/" . "rust/")
  ("/opt/repos/note/machine_learning_book/part4/" . "images/")
  ("/opt/repos/note/machine_learning_book/" . "part99/")
- ("/Users/pochi/.emacs.d/" . "lisp/")
+ ("/Users/pochi/.emacs.d/" . "elpa/")
  ("/Users/pochi/" . ".emacs.d/")
  ("/opt/repos/practice/" . "computer_vision/")
  ("/opt/repos/note/" . "machine_learning_book/")
@@ -98,6 +100,9 @@
 ;; ----- ido-work-directory-list -----
 (
  "/opt/repos/todo/"
+ "/Users/pochi/"
+ "/Users/pochi/.emacs.d/elpa/transient-20190304.2257/"
+ "/Users/pochi/.emacs.d/elpa/magit-20190307.1247/"
  "/Users/pochi/.emacs.d/lisp/"
  "/Users/pochi/.emacs.d/"
  "/opt/repos/mirror/fuga/"
@@ -144,36 +149,39 @@
  "/opt/repos/reading/SegCaps/"
  "/opt/repos/project/kaggle/berkeley_segmentation/"
  "/opt/repos/reading/SegCaps/imgs/"
- "/opt/repos/note/machine_learning_book/meetings/"
- "/opt/repos/note/machine_learning_book/part1/"
- "/opt/repos/reading/tensorflow/tensorflow/core/protobuf/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "readme.org"
+ "notes.org"
+ "tasks.org"
+ "todo.org"
+ ".notes"
+ "transient.el"
+ "magit-commit.el"
+ "init-magit.el"
  "init-ui.el"
  "init-org.el"
- "init.el"
- "init-doom.el"
- "init-exec-path.el"
- "todo.org"
- "init-navigation.el"
- "init-jedi.el"
- "init-elpa.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/opt/repos/todo/" (23681 60872 207825 419000) ".git/" "readme.org" "tasks.org" "todo.org" "notes.org" "../" "./")
+
+ ("/Users/pochi/" (23681 58382 774402 749000) ".gitbook/" ".conda/" "PlayOnMac's virtual drives/" ".viminfo" ".bash_history" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".histfile" ".m2/" ".vscode/" ".pyenv/" ".chainer/" "Documents/" ".npm/" ".keras/" ".zcompdump" ".jupyter/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" ".gitignore" "dotemacs25/" "Public/" ".bash_sessions/" ".zcompdump-黒田雄一のMacBook Pro-5.2" ".node_repl_history" ".emacs.d/" ".tfdbg_history" ".oracle_jre_usage/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".boto" ".notes" ".zshrc.backup" "Pictures/" ".local/" ".zshrc" ".CFUserTextEncoding" "VirtualBox VMs/" ".tmux.conf" ".DS_Store" ".node-gyp/" ".gsutil/" ".docker/" ".kaggle/" "Music/" ".config/" "../" "./")
+
+ ("/Users/pochi/.emacs.d/elpa/transient-20190304.2257/" (23681 57826 241353 708000) "transient-pkg.el" "transient.el" "dir" "transient.elc" "transient-autoloads.el" "transient.info" "../" "./")
+
+ ("/Users/pochi/.emacs.d/elpa/magit-20190307.1247/" (23681 56667 652725 798000) "magit-status.el" "magit-section.el" "magit-blame.el" "magit.info" "magit-sequence.el" "magit-subtree.el" "magit-pull.el" "magit-autoloads.el" "magit-wip.el" "magit-repos.el" "magit-utils.el" "magit-pkg.el" "magit-apply.el" "dir" "magit-core.el" "magit-clone.el" "magit.info-1" "magit-autorevert.el" "magit-tag.el" "magit-obsolete.el" "magit-refs.el" "magit-diff.el" "magit-imenu.el" "magit-margin.el" "magit-commit.el" "magit-git.el" "magit-branch.el" "magit-patch.el" "magit-fetch.el" "magit-remote.el" "magit-files.el" "magit-mode.el" "magit-merge.el" "magit-ediff.el" "magit-log.el" "magit.el" "git-rebase.el" "magit-push.el" "magit-transient.el" "magit-bisect.el" "magit-process.el" "magit-stash.el" "LICENSE" "magit.info-2" "magit-notes.el" "magit-bookmark.el" "magit-submodule.el" "magit-worktree.el" "AUTHORS.md" "magit-gitignore.el" "magit-extras.el" "magit-reset.el" "../" "./")
+
+ ("/Users/pochi/.emacs.d/elpa/" (23681 54788 375998 81000) "elpy-20190301.1849/" "golden-ratio-20150819.420/" "ido-completing-read+-20170313.1603/" "popup-20160709.729/" "exec-path-from-shell-20170508.4/" "with-editor-20190224.931/" "go-mode-20170308.1512/" "ctable-20171006.11/" "js2-mode-20170721/" "ivy-20190306.1011/" "markdown-mode-20170512.1313/" "magit-20190307.1247/" "protobuf-mode-20170526.950/" "smex-20151212.1409/" "dash-20170207.2056/" "helm-20170511.2242/" "atom-dark-theme-20181022.1602/" "yasnippet-20170511.1824/" "python-environment-20150310.853/" "projectile-20170416.148/" "pkg-info-20150517.443/" "memoize-20180614.1930/" "s-20170428.1026/" "git-commit-20190102.107/" "highlight-indentation-20181204.839/" "org-bullets-20180208.2343/" "pyenv-mode-20160221.1123/" "scala-mode-20170323.502/" "pythonic-20160221.1123/" "undo-tree-20161012.701/" "archives/" "jedi-20160426.456/" "markup-faces-20141110.17/" "f-20170404.1039/" "ido-ubiquitous-20170313.1603/" "all-the-icons-20190223.2143/" "helm-core-20170507.531/" "transient-20190304.2257/" "adoc-mode-20160314.1430/" "atom-one-dark-theme-20190107.1621/" "web-mode-20170510.1127/" "async-20170502.2343/" "jedi-core-20181207.1/" "find-file-in-project-20190215.44/" "markdown-mode+-20170320.1404/" "rust-mode-20170606.457/" "anaconda-mode-20170405.301/" "doom-themes-20190307.356/" "deferred-20170901.1330/" "exec-path-from-shell-0/" "concurrent-20161229.330/" "epl-20150517.433/" "auto-complete-20170125.245/" "pyvenv-20181228.1722/" "company-20170420.1837/" "sbt-mode-20170508.1/" "epc-20140610.534/" "company-anaconda-20160809.705/" "ensime-20170511.848/" "rjsx-mode-20171029.1156/" "../" "./")
+
+ ("/Users/pochi/.emacs.d/" (23681 56780 611558 385000) ".recentf~" ".smex-items" ".git/" "anaconda-mode/" "elpa/" ".recentf" "init.el" ".python-environments/" "auto-save-list/" "transient/" "projectile-bookmarks.eld" "ido.last~" "abbrev_defs" "lisp/" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
+
  ("/Users/pochi/.emacs.d/lisp/" (23681 53108 487195 382000) "init-python.el" "init-ocaml.el" "init-markdown.el" "init-org.el" "init-customkeybind.el" "init-rust.el" "init-helm.el" "init-customconfig.el" "init-navigation.el" "init-ui.el" "init-miscellaneous.el" "init-cmake.el" "init-asciidoc.el" "init-elpy.el" "init-cpp.el" "init-elpa.el" "init-web-mode.el" "init-editing.el" "init-haskell.el" "init-company-mode.el" "init-clojure.el" "init-glsl.el" "init-exec-path.el" "init-scala.el" "init-lisp.el" "../" "./")
 
- ("/opt/repos/todo/" (23681 47250 678756 217000) ".git/" "todo.org" "../" "./")
-
- ("/Users/pochi/.emacs.d/" (23681 50992 463481 361000) ".recentf~" ".smex-items" ".git/" "anaconda-mode/" "elpa/" ".recentf" "init.el" ".python-environments/" "auto-save-list/" "projectile-bookmarks.eld" "ido.last~" "abbrev_defs" "lisp/" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
-
  ("/opt/repos/" (23681 46866 935055 576000) "mirror/" "todolist.org" "jupyter/" "aws_sagemaker.md" "practice/" "meetings/" "model/" "project/" "env.md" "todo/" "google-cloud-sdk/" ".hoge/" ".DS_Store" "docker/" "note/" "reading/" "../" "./")
-
- ("/Users/pochi/" (23681 44399 418575 980000) ".gitbook/" ".conda/" "PlayOnMac's virtual drives/" ".viminfo" ".bash_history" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".histfile" ".m2/" ".vscode/" ".pyenv/" ".chainer/" "Documents/" ".npm/" ".keras/" ".zcompdump" ".jupyter/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" ".gitignore" "dotemacs25/" "Public/" ".bash_sessions/" ".zcompdump-黒田雄一のMacBook Pro-5.2" ".node_repl_history" ".emacs.d/" ".tfdbg_history" ".oracle_jre_usage/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".boto" ".zshrc.backup" "Pictures/" ".local/" ".zshrc" ".CFUserTextEncoding" "VirtualBox VMs/" ".tmux.conf" ".DS_Store" ".node-gyp/" ".gsutil/" ".docker/" ".kaggle/" "Music/" ".config/" "../" "./")
 
  ("/opt/repos/mirror/fuga/" (23680 49431 37766 57000) ".git/" "sample.py" "../" "./")
 
@@ -358,12 +366,6 @@
  ("/opt/repos/reading/tensorflow/tensorflow/core/protobuf/" (22969 45197 0 0) "device_properties.proto" "config.proto" "control_flow.proto" "tensor_bundle.proto" "queue_runner.proto" "saver.proto" "rewriter_config.proto" "meta_graph.proto" "tensorflow_server.proto" "debug.proto" "cluster.proto" "saved_model.proto" "worker_service.proto" "master_service.proto" "master.proto" "named_tensor.proto" "worker.proto" "../" "./")
 
  ("/opt/repos/reading/tensorflow/tensorflow/core/" (22969 45197 0 0) "debug/" "distributed_runtime/" "protobuf/" "BUILD" "profiler/" "ops/" "lib/" "public/" "grappler/" "common_runtime/" "graph/" "user_ops/" "platform/" "example/" "framework/" "util/" "kernels/" "../" "./")
-
- ("/opt/repos/reading/serving/tensorflow_serving/util/" (23211 38447 122143 279000) "unique_ptr_with_deps_test.cc" "file_probing_env.h" "optional.cc" "event_bus_test.cc" "class_registration.h" "hash.h" "retrier.cc" "threadpool_executor.h" "BUILD" "threadpool_executor.cc" "any_ptr.h" "test_util/" "status_util_test.cc" "executor.h" "retrier_test.cc" "unique_ptr_with_deps.h" "fast_read_dynamic_ptr_benchmark.cc" "inline_executor_test.cc" "fast_read_dynamic_ptr.h" "retrier.h" "status_util.cc" "any_ptr_test.cc" "class_registration_util.cc" "optional.h" "inline_executor.h" "file_probing_env.cc" "status.proto" "threadpool_executor_test.cc" "hash.cc" "optional_test.cc" "class_registration_test.cc" "cleanup_test.cc" "class_registration_util.h" "event_bus.h" "observer.h" "status_util.h" "observer_test.cc" "fast_read_dynamic_ptr_test.cc" "class_registration_test.proto" "inline_executor.cc" "cleanup.h" "../" "./")
-
- ("/opt/repos/reading/serving/tensorflow_serving/model_servers/" (23229 54087 255428 301000) "get_model_status_impl.cc" "model_service_impl.h" "BUILD" "grpc_status_util.cc" "model_service_impl.cc" "tensorflow_model_server_test_client.py" "test_util/" "get_model_status_impl.h" "grpc_status_util.h" "get_model_status_impl_test.cc" "model_platform_types.h" "server_core_test.cc" "tensorflow_model_server_test.py" "server_core.h" "server_core.cc" "platform_config_util.h" "platform_config_util.cc" "main.cc" "../" "./")
-
- ("/opt/repos/reading/serving/tensorflow_serving/apis/internal/" (23112 60690 505784 982000) "BUILD" "serialized_input.proto" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
