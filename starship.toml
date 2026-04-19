@@ -1,0 +1,133 @@
+# Starship Prompt Configuration (2026)
+# https://starship.rs/config/
+
+# Timeout for commands
+command_timeout = 1000
+
+# New line between prompts
+add_newline = true
+
+# Format
+format = """
+[╭─](bold green)$username$hostname$directory$git_branch$git_status$python$nodejs$rust$golang$terraform$docker_context$aws
+[╰─](bold green)$character"""
+
+# Right side format
+right_format = """$cmd_duration"""
+
+# ===== Prompt Character =====
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
+
+# ===== Username =====
+[username]
+style_user = "bold blue"
+style_root = "bold red"
+format = "[$user]($style) "
+disabled = false
+show_always = false
+
+# ===== Hostname =====
+[hostname]
+ssh_only = true
+format = "[@$hostname](bold yellow) "
+disabled = false
+
+# ===== Directory =====
+[directory]
+style = "bold cyan"
+truncation_length = 3
+truncate_to_repo = true
+truncation_symbol = "…/"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+# ===== Git Branch =====
+[git_branch]
+style = "bold purple"
+symbol = " "
+format = "[$symbol$branch]($style) "
+
+# ===== Git Status =====
+[git_status]
+style = "bold red"
+format = "([$all_status$ahead_behind]($style) )"
+conflicted = "🏳 "
+ahead = "⇡${count} "
+behind = "⇣${count} "
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
+untracked = "?${count} "
+stashed = "$${count} "
+modified = "!${count} "
+staged = "+${count} "
+renamed = "»${count} "
+deleted = "✘${count} "
+
+# ===== Command Duration =====
+[cmd_duration]
+min_time = 500
+style = "bold yellow"
+format = "[$duration]($style)"
+
+# ===== Programming Languages =====
+
+[python]
+symbol = " "
+style = "bold yellow"
+format = "[$symbol$pyenv_prefix($version )(($virtualenv) )]($style)"
+pyenv_version_name = true
+
+[nodejs]
+symbol = " "
+style = "bold green"
+format = "[$symbol($version )]($style)"
+
+[rust]
+symbol = " "
+style = "bold red"
+format = "[$symbol($version )]($style)"
+
+[golang]
+symbol = " "
+style = "bold cyan"
+format = "[$symbol($version )]($style)"
+
+[terraform]
+symbol = "💠 "
+style = "bold purple"
+format = "[$symbol$workspace]($style) "
+
+# ===== Cloud & Containers =====
+
+[aws]
+symbol = "☁️  "
+style = "bold yellow"
+format = "[$symbol($profile )(($region) )]($style)"
+
+[docker_context]
+symbol = " "
+style = "bold blue"
+format = "[$symbol$context]($style) "
+only_with_files = true
+
+# ===== Package Managers =====
+
+[package]
+symbol = " "
+style = "bold cyan"
+format = "[$symbol$version]($style) "
+disabled = true
+
+# ===== Time (optional, disabled by default) =====
+
+[time]
+disabled = true
+time_format = "%T"
+style = "bold white"
+format = "[$time]($style) "

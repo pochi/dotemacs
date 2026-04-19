@@ -1,0 +1,51 @@
+# Emacs
+*~
+*.elc
+auto-save-list/
+.recentf
+.recentf~
+.smex-items
+abbrev_defs
+ac-comphist.dat
+bookmarks
+ido.last
+ido.last~
+projectile-bookmarks.eld
+transient/
+tree-sitter/
+.python-environments/
+anaconda-mode/
+elpa/archives/
+network-security.data
+
+# Don't commit compiled packages (too large)
+elpa/
+!elpa/.gitkeep
+
+# Temporary files
+xaa
+xab
+xac
+
+# AWS credentials (NEVER commit these!)
+*.pem
+*.key
+credentials
+config
+.aws/
+
+# SSH keys
+id_rsa*
+id_ed25519*
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Compiled zsh
+*.zwc
